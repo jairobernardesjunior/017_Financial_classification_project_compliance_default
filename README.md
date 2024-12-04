@@ -1,24 +1,58 @@
 ## Projeto non-payment probability
 
 ### Problem:
-The daily price of our gold involves risks that need to be minimized to obtain a better adjustment in the sale of funds for this commodity. The exchanges sell several gold commodity fund securities every day which, therefore, suffer a daily variation in their value, requiring an effort to monitor and in-depth study in identifying how much and when a variation will occur, thus being capable of error, depending on the operator's assessment. The price of other commodities follows and is related to the price of gold, as well as the dollar and other indices that can be used to discover the next value of this metal.
+The total annual loans in Brazil is around R$ 5.3 trillion making this modality one of the most active in the financial sector. On this amount, the interest rate applies which represents the part of the profitability of the business. Thus, for success in this operation, it is necessary, logically, for the lender to receive faithfully the due interest and the borrowed amount. The certainty of receiving the profits and the loan amount must be ensured before the deal is closed.
 
-A cotação diária do ouro envolve riscos que precisam ser minimizados para se obter um melhor acerto na comercialização de fundos dessa commodity. As bolsas comercializam todos os dias vários títulos de fundos de commodity de ouro que, dessa forma, sofrem uma variação diária em seu valor, exigindo um esforço de acompanhamento e estudo profundo na identificação de quanto e quando uma variação vai acontecer, sendo assim passível de erro, dependendo inteiramente da avaliação do operador. A cotação de outras commodities acompanham e tem relação com a cotação do ouro, assim como o dolar e outros índices que podem ser usados para se descobrir o próximo valor desse metal.
+O total de empréstimos anual no Brasil está em torno de R$ 5,3 trilhões tornando essa modalidade uma das mais ativas no setor financeiro. Sobre esse montante incide a taxa de juros que representa a parte da lucratividade do negócio. Assim para que se tenha sucesso nessa operação faz-se necessário, logicamente, para quem empresta, receber fielmente os juros devidos e o montante emprestado. A certeza de receber os lucros e o montante do empréstimo deve ser assegurado antes do negócio ser fechado.
 
 ### Motivation:
-As previously mentioned, stock exchange operators can make a substantial mistake when making a decision to buy or sell a gold commodity fund, potentially putting an amount invested at risk for a significant period of time, which would be a disaster for both the operator and for those who are making the investment. Therefore, it was decided to use tools that can predict the value of gold on a daily basis, knowing the margin of error, which is not possible with the operator, and being able to make this margin of error more flexible depending on the manipulation and treatment of the data used. So you need to define a gold price prediction model and use this model by carrying out several simulations using the prices practiced the previous day in different commodities such as platinum, silver, changes in stock market indices, etc.
+The need to know if a loan will be received properly in its entirety, with interest and adjustment, leads companies that lend money to seek ways to anticipate whether the borrower has the conditions and a profile capable of faithfully repaying the amount borrowed. For this, the company granting the loan needs to be aware of two fundamental issues for its security: to know the level of risk of the borrower and to know, according to the level of that risk, whether to lend the negotiated amount or not.
 
-Como já mencionado anteriormente, os operadores da bolsa podem errar substancialmente quanto a uma decisão de comprar ou vender um fundo de commodity de ouro, podendo colocar em risco um montante investido por um período significante, o que seria um desastre, tanto para o operador quanto para quem está fazendo o investimento. Dessa forma optou-se em usar ferramentas que possam predizer o valor do ouro diariamente, tendo conhecimento da margem de erro, o que não é possível saber com o operador, e podendo flexibilizar essa margem de erro conforme a manipulação e tratamento dos dados utilizados. Então precisa-se definir um modelo de predição de preço do ouro e usar esse modelo fazendo várias simulações através dos preços praticados no dia anterior nas diferentes commodities tais como, platina, prata, variação dos índices da bolsa, etc.
+A necessidade de saber se um empréstimo será recebido devidamente em sua integralidade, com juros e correção, leva as empresas que trabalham emprestando dinheiro, procurar meios de antecipar se o tomador do empréstimo tem condições e um perfil capaz de pagar, com fidelidade, o valor tomado. Para isso a empresa que cede o empréstimo precisa estar a par de duas questões fundamentais para sua segurança: saber qual o nível do risco do tomador e saber, conforme o nível desse risco, se empresta ou não o valor negociado.
 
 ### Solution:
-As a solution, we will carry out an in-depth study of the data provided, we know that there are several time series of variables that are related to the gold commodity. We will use several machine learning model algorithms, as well as deep learning, and the model that presents the best result will be the one chosen to be used to predict the price of gold on the stock exchange. The chosen resulting model will be stored and available to be used in future predictions of the price of gold securities traded on the exchange.
+Through financial loan data from the company itself, we will conduct a thorough study and adjustment of this data. Various machine learning models, including deep learning, will be trained, defining and selecting the model that best generalizes in defining probabilities that reveal the level of risk in granting a specific loan to a particular person. This will enable and support the financial loan team in making the best decision regarding the security of that loan, reducing the events of default against the company.
 
-Como solução faremos um estudo profundo dos dados fornecidos, sabemos que são várias séries temporais de variáveis que estão relacionadas a commodity ouro. Utilizaremos vários algoritmos de modelos de machine learning, como também de deep learning, e o modelo que apresentar o melhor resultado será o escolhido para ser utilizado na predição da cotação do ouro na bolsa de valores. O modelo resultante escolhido será armazenado e ficará disponível para ser utilizado nas predições futuras do preço dos títulos de ouro comercializado na bolsa.
+Através de dados de empréstimos financeiros da própria empresa, faremos um estudo profundo e adequação desses dados. Será feito o treinamento de vários modelos de machine learning, como de deep learning, definindo e elegendo o modelo que melhor generaliza na definição de probabilidades que revelam o nível do risco de se fazer um determinado empréstimo para uma pessoa específica. Isso possibilitará e apoiará a equipe de empréstimos financeiros a tomar a melhor decisão com relação à segurança daquele empréstimo, reduzindo os eventos de inadimplência contra a empresa.
 
 ### Objective:
-- O objetivo desse trabalho é treinar um modelo de classificação que possa nos informar qual o percentual da probabilidade de inadimplência ocorrer em um empréstimo financeiro.
+- The objective of this work is to train a classification model that can inform us of the probability of default occurring on a financial loan.
+
+- O objetivo desse trabalho é treinar um modelo de classificação que possa nos informar qual a probabilidade de inadimplência ocorrer em um empréstimo financeiro.
 
 ### Data Origin:
-- Dataset: https://www.kaggle.com/datasets/franciscogcc/financial-data/data
-The data is a time series dataset with financial info for some market indices, commodities, economic indicators and forex rates. Market indices and commodities are represented via the respective exchange traded fund. It includes values from 2010 to 2024.
-- Os dados são um conjunto de dados de séries temporais com informações financeiras para alguns índices de mercado, commodities, indicadores econômicos e taxas de câmbio. Os índices de mercado e commodities são representados por meio do respectivo fundo negociado em bolsa. Inclui valores de 2010 a 2024.
+- Dataset: https://www.kaggle.com/datasets/itssuru/loan-data
+
+- publicly available data from LendingClub.com. Lending Club connects people who need money (borrowers) with people who have money (investors). Hopefully, as an investor you would want to invest in people who showed a profile of having a high probability of paying you back.
+
+- Dados disponíveis publicamente do LendingClub.com. O Lending Club conecta pessoas que precisam de dinheiro (tomadores de empréstimo) com pessoas que têm dinheiro (investidores). Felizmente, como investidor, você gostaria de investir em pessoas que mostrassem um perfil de ter uma alta probabilidade de pagar você de volta.
+
+- Aqui está o que as colunas representam:
+
+credit.policy: 1 se o cliente atender aos critérios de subscrição de crédito do LendingClub.com e 0 caso contrário.
+
+purpose: O propósito do empréstimo (assume os valores "credit_card", "debt_consolidation", "educational", "major_purchase", "small_business" e "all_other").
+
+int.rate: A taxa de juros do empréstimo, como uma proporção (uma taxa de 11% seria armazenada como 0,11). Os mutuários considerados pelo LendingClub.com como mais arriscados recebem taxas de juros mais altas.
+
+installment: As parcelas mensais devidas pelo mutuário se o empréstimo for financiado.
+
+log.annual.inc: O logaritmo natural da renda anual autodeclarada do mutuário.
+
+dti: A relação dívida/renda do mutuário (valor da dívida dividido pela renda anual).
+
+fico: A pontuação de crédito FICO do mutuário.
+
+days.with.cr.line: O número de dias em que o mutuário teve uma linha de crédito.
+
+revol.bal: Saldo rotativo do mutuário (valor não pago no final do ciclo de cobrança do cartão de crédito).
+
+revol.util: Taxa de utilização da linha rotativa do mutuário (o valor da linha de crédito usada em relação ao crédito total disponível).
+
+inq.last.6mths: Número de consultas do mutuário por credores nos últimos 6 meses.
+
+delinq.2yrs: Número de vezes que o mutuário atrasou um pagamento em mais de 30 dias nos últimos 2 anos.
+
+pub.rec: Número de registros públicos depreciativos do mutuário (declarações de falência, penhoras fiscais ou julgamentos).
+
+not.fully.paid: O empréstimo não foi totalmente pago.
