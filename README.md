@@ -29,30 +29,30 @@ Através de dados de empréstimos financeiros da própria empresa, faremos um es
 
 - Aqui está o que as colunas representam:
 
-credit.policy: 1 se o cliente atender aos critérios de subscrição de crédito do LendingClub.com e 0 caso contrário.
+    credit.policy: 1 se o cliente atender aos critérios de subscrição de crédito do LendingClub.com e 0 caso contrário.
 
-purpose: O propósito do empréstimo (assume os valores "credit_card", "debt_consolidation", "educational", "major_purchase", "small_business" e "all_other").
+    purpose: O propósito do empréstimo (assume os valores "credit_card", "debt_consolidation", "educational", "major_purchase", "small_business" e "all_other").
 
-int.rate: A taxa de juros do empréstimo, como uma proporção (uma taxa de 11% seria armazenada como 0,11). Os mutuários considerados pelo LendingClub.com como mais arriscados recebem taxas de juros mais altas.
+    int.rate: A taxa de juros do empréstimo, como uma proporção (uma taxa de 11% seria armazenada como 0,11). Os mutuários considerados pelo LendingClub.com como mais arriscados recebem taxas de juros mais altas.
 
-installment: As parcelas mensais devidas pelo mutuário se o empréstimo for financiado.
+    installment: As parcelas mensais devidas pelo mutuário se o empréstimo for financiado.
 
-log.annual.inc: O logaritmo natural da renda anual autodeclarada do mutuário.
+    log.annual.inc: O logaritmo natural da renda anual autodeclarada do mutuário.
 
-dti: A relação dívida/renda do mutuário (valor da dívida dividido pela renda anual).
+    dti: A relação dívida/renda do mutuário (valor da dívida dividido pela renda anual).
 
-fico: A pontuação de crédito FICO do mutuário.
+    fico: A pontuação de crédito FICO do mutuário.
 
-days.with.cr.line: O número de dias em que o mutuário teve uma linha de crédito.
+    days.with.cr.line: O número de dias em que o mutuário teve uma linha de crédito.
 
-revol.bal: Saldo rotativo do mutuário (valor não pago no final do ciclo de cobrança do cartão de crédito).
+    revol.bal: Saldo rotativo do mutuário (valor não pago no final do ciclo de cobrança do cartão de crédito).
 
-revol.util: Taxa de utilização da linha rotativa do mutuário (o valor da linha de crédito usada em relação ao crédito total disponível).
+    revol.util: Taxa de utilização da linha rotativa do mutuário (o valor da linha de crédito usada em relação ao crédito total disponível).
 
-inq.last.6mths: Número de consultas do mutuário por credores nos últimos 6 meses.
+    inq.last.6mths: Número de consultas do mutuário por credores nos últimos 6 meses.
 
-delinq.2yrs: Número de vezes que o mutuário atrasou um pagamento em mais de 30 dias nos últimos 2 anos.
+    delinq.2yrs: Número de vezes que o mutuário atrasou um pagamento em mais de 30 dias nos últimos 2 anos.
 
-pub.rec: Número de registros públicos depreciativos do mutuário (declarações de falência, penhoras fiscais ou julgamentos).
+    pub.rec: Número de registros públicos depreciativos do mutuário (declarações de falência, penhoras fiscais ou julgamentos).
 
-not.fully.paid: O empréstimo não foi totalmente pago.
+    not.fully.paid: O empréstimo não foi totalmente pago.
