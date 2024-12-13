@@ -18,7 +18,7 @@ Através de dados de empréstimos financeiros da própria empresa, faremos um es
 ### Objective:
 - The objective of this work is to train a classification model that can inform us whether a person may default on a financial loan.
 
-- O objetivo desse trabalho é treinar um modelo de classificação que possa nos informar se uma pessoa pode ficar inadimplente en um empréstimo financeiro.
+- O objetivo desse trabalho é treinar um modelo de classificação que possa nos informar se uma pessoa pode ficar inadimplente em um empréstimo financeiro.
 
 ### Data Origin:
 - Dataset: https://www.kaggle.com/datasets/itssuru/loan-data
