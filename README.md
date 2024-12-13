@@ -1,7 +1,7 @@
 ## Projeto non-payment probability
 
 ### Problem:
-The total annual loans in Brazil is around R$ 5.3 trillion making this modality one of the most active in the financial sector. On this amount, the interest rate applies which represents the part of the profitability of the business. Thus, for success in this operation, it is necessary, logically, for the lender to receive faithfully the due interest and the borrowed amount. The certainty of receiving the profits and the loan amount must be ensured before the deal is closed.
+The total annual loans in Brazil is around R$ 5.3 trillion making this modality one of the most active in the financial sector. On this amount, the interest rate applies which represents the part of the profitability of the business. Thus, for success in this operation, it is necessary, logically, for the lender to receive faithfully the due interest and the borrowed amount. The certainty of receiving the profits and the loan amount must be ensured before the deal is closed..
 
 O total de empréstimos anual no Brasil está em torno de R$ 5,3 trilhões tornando essa modalidade uma das mais ativas no setor financeiro. Sobre esse montante incide a taxa de juros que representa a parte da lucratividade do negócio. Assim para que se tenha sucesso nessa operação faz-se necessário, logicamente, para quem empresta, receber fielmente os juros devidos e o montante emprestado. A certeza de receber os lucros e o montante do empréstimo deve ser assegurado antes do negócio ser fechado.
 
