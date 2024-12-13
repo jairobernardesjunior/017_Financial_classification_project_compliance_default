@@ -11,21 +11,21 @@ The need to know if a loan will be received properly in its entirety, with inter
 A necessidade de saber se um empréstimo será recebido devidamente em sua integralidade, com juros e correção, leva as empresas que trabalham emprestando dinheiro, procurar meios de antecipar se o tomador do empréstimo tem condições e um perfil capaz de pagar, com fidelidade, o valor tomado. Para isso a empresa que cede o empréstimo precisa estar a par de duas questões fundamentais para sua segurança: saber qual o nível do risco do tomador e saber, conforme o nível desse risco, se empresta ou não o valor negociado.
 
 ### Solution:
-Through financial loan data from the company itself, we will conduct a thorough study and adjustment of this data. Various machine learning models, including deep learning, will be trained, defining and selecting the model that best generalizes in defining probabilities that reveal the level of risk in granting a specific loan to a particular person. This will enable and support the financial loan team in making the best decision regarding the security of that loan, reducing the events of default against the company.
+Using the company's own financial loan data, we will carry out an in-depth study and adaptation of this data. Various machine learning models, such as deep learning, will be trained, defining and choosing the model that best generalizes in defining the defaulter and reveals the level of risk of making a specific loan to a specific person. This will enable and support the financial lending team to make the best decision regarding the security of that loan, reducing default events against the company.
 
-Através de dados de empréstimos financeiros da própria empresa, faremos um estudo profundo e adequação desses dados. Será feito o treinamento de vários modelos de machine learning, como de deep learning, definindo e elegendo o modelo que melhor generaliza na definição de probabilidades que revelam o nível do risco de se fazer um determinado empréstimo para uma pessoa específica. Isso possibilitará e apoiará a equipe de empréstimos financeiros a tomar a melhor decisão com relação à segurança daquele empréstimo, reduzindo os eventos de inadimplência contra a empresa.
+Através de dados de empréstimos financeiros da própria empresa, faremos um estudo profundo e adequação desses dados. Será feito o treinamento de vários modelos de machine learning, como de deep learning, definindo e elegendo o modelo que melhor generaliza na definição do inadimplente e revela o nível do risco de se fazer um determinado empréstimo para uma pessoa específica. Isso possibilitará e apoiará a equipe de empréstimos financeiros a tomar a melhor decisão com relação à segurança daquele empréstimo, reduzindo os eventos de inadimplência contra a empresa.
 
 ### Objective:
-- The objective of this work is to train a classification model that can inform us of the probability of default occurring on a financial loan.
+- The objective of this work is to train a classification model that can inform us whether a person may default on a financial loan.
 
-- O objetivo desse trabalho é treinar um modelo de classificação que possa nos informar qual a probabilidade de inadimplência ocorrer em um empréstimo financeiro.
+- O objetivo desse trabalho é treinar um modelo de classificação que possa nos informar se uma pessoa pode ficar inadimplente en um empréstimo financeiro.
 
 ### Data Origin:
 - Dataset: https://www.kaggle.com/datasets/itssuru/loan-data
 
-- publicly available data from LendingClub.com. Lending Club connects people who need money (borrowers) with people who have money (investors). Hopefully, as an investor you would want to invest in people who showed a profile of having a high probability of paying you back.
+- Publicly available data from LendingClub.com. Lending Club connects people who need money (borrowers) with people who have money (investors). Fortunately, as an investor, you would want to invest in people who show a profile of having the security of paying you back.
 
-- Dados disponíveis publicamente do LendingClub.com. O Lending Club conecta pessoas que precisam de dinheiro (tomadores de empréstimo) com pessoas que têm dinheiro (investidores). Felizmente, como investidor, você gostaria de investir em pessoas que mostrassem um perfil de ter uma alta probabilidade de pagar você de volta.
+- Dados disponíveis publicamente do LendingClub.com. O Lending Club conecta pessoas que precisam de dinheiro (tomadores de empréstimo) com pessoas que têm dinheiro (investidores). Felizmente, como investidor, você gostaria de investir em pessoas que mostrassem um perfil de ter a segurança de pagar você de volta.
 
 - Aqui está o que as colunas representam:
 
