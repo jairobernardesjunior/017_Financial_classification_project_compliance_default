@@ -1,4 +1,4 @@
-## Projeto non-payment
+## Projeto adimplência inadimplência
 
 ### Problem:
 The total annual loans in Brazil is around R$ 5.3 trillion making this modality one of the most active in the financial sector. On this amount, the interest rate applies which represents the part of the profitability of the business. Thus, for success in this operation, it is necessary, logically, for the lender to receive faithfully the due interest and the borrowed amount. The certainty of receiving the profits and the loan amount must be ensured before the deal is closed..
